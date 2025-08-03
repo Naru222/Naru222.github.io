@@ -28,8 +28,8 @@ td {
 }
 
 #generateBtn {
-  position: relative;
-  bottom: 0px;
+  position: fixed;
+  bottom: 350px;
   left: 50%;
   transform: translateX(-50%);
   padding: 14px 24px;
