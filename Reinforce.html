@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>커스텀 모듈 옵션 뽑기</title>
+    <link rel="stylesheet" href="Reinforce.css">
+</head>
+
+<body>
+
+    <h1>장비 개조</h1>
+
+    <div id="tableWrapper">
+        <table id="resultTable" style="display:none;">
+            <thead>
+                <tr>
+                    <th>옵션 이름</th>
+                    <th>수치</th>
+                    <th>스킬 레벨</th>
+                </tr>
+            </thead>
+            <tbody id="resultBody"></tbody>
+        </table>
+
+        <!-- 커스텀 카운터 이미지 + 수치 -->
+        <div id="countDisplay">
+            <img src="img/스크린샷(30756).png" alt="카운터 이미지" height="70">
+            <span id="countText">0</span>
+        </div>
+
+        <!-- 장비 개조 버튼 -->
+        <button id="generateBtn" onclick="generateOptions()">장비 개조</button>
+
+    </div>
+    <script src="Reinforce.js"></script>
+
+</body>
+
+</html>
