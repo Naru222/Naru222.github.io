@@ -29,7 +29,7 @@ td {
 
 #generateBtn {
   position: fixed;
-  bottom: 450px;
+  bottom: 430px;
   left: 50%;
   transform: translateX(-50%);
   padding: 14px 24px;
