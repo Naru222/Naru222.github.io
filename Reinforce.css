@@ -29,7 +29,7 @@ td {
 
 #generateBtn {
   position: fixed;
-  bottom: 1850px;
+  bottom: 1550px;
   left: 50%;
   transform: translateX(-50%);
   padding: 14px 24px;
@@ -48,7 +48,7 @@ td {
 
 #countDisplay {
   position: fixed;
-  bottom: 2000px;
+  bottom: 1800px;
   left: 50%;
   transform: translateX(-50%);
   font-size: 18px;
@@ -62,3 +62,4 @@ td {
 #tableWrapper {
   padding-bottom: 100px;
 }
+
